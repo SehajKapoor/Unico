@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeTable1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Spinner
+                android:id="@+id/choose_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="15dp" />
+
+            <Spinner
+                android:id="@+id/period_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="270dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="290dp"/>
+
+            <Spinner
+                android:id="@+id/period_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="270dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="120dp"/>
+
+            <Spinner
+                android:id="@+id/period_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="210dp" />
+
+            <Spinner
+                android:id="@+id/period_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="370dp" />
+
+            <Spinner
+                android:id="@+id/period_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="490dp"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+
+                android:layout_marginRight="280dp"
+                android:text="9:00-10:00"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="280dp"
+                android:layout_marginTop="300dp"
+                android:text="11:00-12:00"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="280dp"
+                android:layout_marginTop="380dp"
+                android:text="12:00-1:00"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="280dp"
+
+                android:layout_marginTop="220dp"
+                android:text="10:00-11:00"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="280dp"
+                android:layout_marginTop="500dp"
+                android:text="2:00-5:00"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="450dp"
+                android:background="#3F51B5"
+                android:text="RECESS"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="600dp"
+                android:text="UPDATE"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:foregroundTint="#DD1507"
+                android:text="*****CHOOSE  YEAR FIRST*****"
+                android:textAlignment="center"
+                android:textColor="#E71002"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"/>
+
+        </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceTable"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="330dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:background="#fff"
+        android:textAlignment="center"
+        android:textColor="#FF5252"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginRight="150dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TableLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="90dp">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/nameT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:textSize="22dp"
+            android:textColor="#000"
+            android:layout_gravity="center"></TextView>
+        <TextView
+            android:id="@+id/rollT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll No"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:textColor="#000"
+            android:layout_gravity="center"></TextView>
+        <TextView
+            android:id="@+id/attendanceT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:textColor="#000"
+            android:layout_gravity="center"></TextView>
+
+    </TableRow>
+    </TableLayout>
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginHorizontal="20dp">
+
+            <TableLayout
+                android:id="@+id/attendanceStudents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="#fff"
+                android:layout_marginHorizontal="20dp">
+
+            </TableLayout>
+
+        </ScrollView>
+
+    <Button
+        android:id="@+id/submission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:text="SUBMIT"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/oval">
+
+    </Button>
+
+</RelativeLayout>

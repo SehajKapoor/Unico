@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentAttendanceGraph">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT SUBJECT :"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="260dp"
+        android:textStyle="bold"
+        android:textColor="#DD0C0C"></TextView>
+    <Spinner
+        android:id="@+id/selectPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="30dp"></Spinner>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chartPie"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        >
+    </com.github.mikephil.charting.charts.PieChart>
+
+</RelativeLayout>

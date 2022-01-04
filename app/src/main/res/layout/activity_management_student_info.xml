@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagementStudentInfo">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:layout_marginRight="260dp"
+    android:text="NAME :"
+        android:layout_marginEnd="250dp"
+    android:textColor="#E90C0C"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:textAlignment="center"></TextView>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="150dp"
+        android:textColor="#008080"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="260dp"
+        android:text="ROLL NO :"
+        android:textColor="#E90C0C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="150dp"
+        android:textColor="#008080"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="260dp"
+        android:text="YEAR :"
+        android:textColor="#E90C0C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="150dp"
+        android:textColor="#008080"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="200dp"
+        android:text="USERNAME :"
+        android:textColor="#E90C0C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="210dp"
+        android:textColor="#008080"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="200dp"
+        android:text="FEE STATUS :"
+        android:textColor="#E90C0C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"></TextView>
+<Spinner
+    android:id="@+id/fee"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:layout_marginTop="490dp"
+    android:layout_marginStart="300dp">
+
+</Spinner>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="UPDATE"
+        android:background="@drawable/oval"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"></Button>
+
+</RelativeLayout>

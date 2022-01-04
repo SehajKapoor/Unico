@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editNotes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/Notestitle"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Title :"
+            android:textSize="30dp"></EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/saveNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SAVE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:background="#536DFE"
+                android:textStyle="bold"
+                android:textColor="#fff"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/NcontentNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18dp"
+        android:gravity="top"
+        android:hint="Details"
+        android:cursorVisible="true"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="75dp"></EditText>
+    <Button
+        android:id="@+id/deleteNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="DISCARD"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="140dp"
+        android:background="#536DFE"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_marginTop="660dp"></Button>
+
+
+</RelativeLayout>
+

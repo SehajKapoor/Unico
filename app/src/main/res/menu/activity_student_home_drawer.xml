@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/timetablehome"
+            android:title="Time Table" />
+
+        <item
+            android:id="@+id/nav_assignments"
+            android:icon="@drawable/assignmentshome"
+            android:title="Assignments" />
+
+        <item
+            android:id="@+id/nav_performance"
+            android:icon="@drawable/performancehome"
+            android:title="Performances" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/attendancehome"
+            android:title="Attendance" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/eventshome"
+            android:title="Events" />
+
+
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/notesnavigationtrial"
+            android:title="Notes" />
+
+    </group>
+
+
+</menu>

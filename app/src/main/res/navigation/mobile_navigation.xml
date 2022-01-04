@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.unico.StudentMain"
+        android:label="@string/menu_home"
+        tools:layout="@layout/student_main_fragment" />
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.unico.Notes1"
+        android:label="Notes"
+        tools:layout="@layout/faculty_list_fragment" />
+    <fragment
+        android:id="@+id/nav_assignments"
+        android:name="com.example.unico.AssignmentStudentFragment"
+        android:label="Assignments"
+        tools:layout="@layout/assignment_student_fragment" />
+    <fragment
+        android:id="@+id/nav_performance"
+        android:name="com.example.unico.PerformanceGraph"
+        android:label="Performances"
+        tools:layout="@layout/years_fragment" />
+    <fragment
+        android:id="@+id/nav_attendance"
+        android:name="com.example.unico.StudentAttendanceGraph"
+        android:label="Attendance"
+        tools:layout="@layout/attendance_fragment" />
+    <fragment
+        android:id="@+id/nav_timetable"
+        android:name="com.example.unico.ShowTimeTable"
+        android:label="Time Table"
+        tools:layout="@layout/show_time_table_fragment" />
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="com.example.unico.EventsGallery"
+        android:label="Events"
+        tools:layout="@layout/events_gallery_fragment" />
+
+   </navigation>

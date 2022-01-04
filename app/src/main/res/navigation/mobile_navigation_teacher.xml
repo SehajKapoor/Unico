@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_teacher"
+    app:startDestination="@+id/nav_home_teacher">
+    <fragment
+        android:id="@+id/nav_home_teacher"
+        android:name="com.example.unico.TeacherFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/teacher_fragment" />
+    <fragment
+        android:id="@+id/nav_students"
+        android:name="com.example.unico.YearsFragment"
+        android:label="Students"
+        tools:layout="@layout/years_fragment" />
+    <fragment
+        android:id="@+id/nav_attendanceT"
+        android:name="com.example.unico.YearsForAttendance"
+        android:label="Attendance"
+        tools:layout="@layout/years_for_attendance_fragment" />
+    <fragment
+        android:id="@+id/nav_evaluation"
+        android:name="com.example.unico.Evaluation1"
+        android:label="Evaluation"
+        tools:layout="@layout/evaluation1_fragment" />
+    <fragment
+        android:id="@+id/nav_assignmentsT"
+        android:name="com.example.unico.AssignmentFragment"
+        android:label="Assignments"
+        tools:layout="@layout/assignment_fragment" />
+    <fragment
+        android:id="@+id/nav_timetableT"
+        android:name="com.example.unico.TableFirst"
+        android:label="Time Table"
+        tools:layout="@layout/table_first_fragment" />
+    <fragment
+        android:id="@+id/nav_notesT"
+        android:name="com.example.unico.TeacherNotes1"
+        android:label="Notes"
+        tools:layout="@layout/notes1_fragment" />
+
+</navigation>

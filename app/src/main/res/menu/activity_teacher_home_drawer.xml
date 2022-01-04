@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_teacher"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_students"
+            android:icon="@drawable/studenthome"
+            android:title="Students" />
+        <item
+            android:id="@+id/nav_attendanceT"
+            android:icon="@drawable/attendancehome"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_evaluation"
+            android:icon="@drawable/evaluationhome"
+            android:title="Evaluation" />
+        <item
+            android:id="@+id/nav_assignmentsT"
+            android:icon="@drawable/assignmentshome"
+            android:title="Assignments" />
+        <item
+            android:id="@+id/nav_timetableT"
+            android:icon="@drawable/timetablehome"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/nav_notesT"
+            android:icon="@drawable/notesnavigationtrial"
+            android:title="Notes" />
+    </group>
+
+</menu>
